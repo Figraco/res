@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&family=Raleway&family=Roboto:ital@1&display=swap');
+
+
+.header{
+    display: flex;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    
+}
+.text01{
+    padding: 27px;
+    font-size: 23px;
+}  
+
+.anekdot{
+    font-size:15px;
+    background: #575c5c;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin: 10px;
+    transition: 2s;
+    color: wheat;
+    /*position: relative;
+    /* animation: mymove 5s infinite;*/ /*кайф(падающий блок) */
+}
+
+/* @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;} */  /*кайф(падающий блок) */
+
+  
+.anekdot :hover{
+    font-size: 19px;
+    color: #FFA840;
+}
+
+.imgg{   
+    border-radius: 40px; 
+    border: 3px solid rgb(153, 149, 149);
+    box-shadow: 0 0 7px #666;
+    margin: 8px;
+}
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: rgba(80, 88, 92, 0.281);
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.head{
+    border: 1px solid #FFA840;
+    padding: 8px;
+    background-color: bisque; 
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.centre{
+    border: 1px solid rgb(109, 109, 156);
+    padding: 8px;
+    background-color: rgb(173, 167, 158); 
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ryd{
+    position: absolute;
+    display: flex;   
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+}
+
+.hobby{
+    border: 1px solid rgb(167, 167, 224);
+    padding: 15px;
+    background-color: rgb(171, 110, 67); 
+    border-radius: 20px;
+    width: 250px; 
+    margin: 10px;  
+    
+}
+
+.hobby li{
+    border-bottom: 1px solid black;
+}
+
+.tabl{
+    border: 1px solid rgb(167, 167, 224);
+    padding: 15px;
+    background-color: rgb(227, 122, 48); 
+    border-radius: 20px;
+    width: 250px; 
+    margin: 10px;
+}
+
+.table td{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* .tabl td:hover{
+    background:#d4c3ca ;
+} */
+/* .tabl tr:hover{
+    background:#8fd8e6 ;
+    border-radius: 50%;
+} */
+.tabl td:nth-child(1),.tabl td:nth-child(2), .tabl td:nth-child(3){
+    background: rgb(194, 176, 127);
+    border-radius: 5px;
+}
+/* .tabl tr:nth-child(1){
+    background: #05326D;
+} */
+
+.end{
+    border: 1px solid rgb(167, 167, 224);
+    padding: 15px;
+    background-color: rgb(221, 163, 119); 
+    border-radius: 20px;
+    width: 250px; 
+    margin: 10px;
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid rgb(192, 127, 125); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */  
+}
+
+
+.color{
+    color:#05326D	;
+}
+
+.color1{
+    color:#6A48D7;
+}
+
+.https{
+    color: rgb(15, 7, 7);
+    transition: all.4s;
+    text-decoration: underline;
+}
+
+.https:hover{
+    color: #3b8588;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.btn{
+    background: #490b16;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all.4s;
+
+}
+
+.btn:hover{
+    color: rgba(218, 161, 97, 0.877);
+    font-size: 15px;
+    opacity: 0.8;
+
+}
+
+.navbar {
+    background: lightcoral;
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    right: 100px;
+    left: 100px;
+    z-index: 2; 
+    word-wrap: break-word;   
+}
+.navbar ul{
+    list-style:none;
+    margin: 0;
+    padding: 0 40px;
+    display: flex;
+    max-width: 17000px;
+}
+.navbar ul li{
+    margin-right: 10px;
+    padding: 15px;
+    margin-left: auto; 
+     margin-right: auto;
+    border-radius: 15px;
+    
+    
+}
+.navbar ul li:hover{
+    background: #bc80d8;
+}
+
+  @media(max-width:900){
+    .header{
+        display: block;
+        text-align: center;       
+    }
+ } 
+
+ @media(max-width:940){
+    .ryd{
+        display:contents;   
+        position: static;       
+    }
+ }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
